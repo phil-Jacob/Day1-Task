@@ -1,0 +1,6 @@
+Introduction:
+Objects are collections of key-value pairs, where the keys are strings (or symbols) and the values can be any JavaScript data type.
+Objects are versatile data structures that can hold properties and methods.
+Objects can have properties and methods, which are accessed using dot notation or bracket notation.
+Objects can be created using "Object Literals('{}')" and constructor.
+They can also be created using keyword "new or by using "Object.create" method. 

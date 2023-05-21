@@ -1,0 +1,23 @@
+Introduction :
+The Hypertext Transfer Protocol (HTTP) is the foundation of communication on the World Wide Web.
+IT was developed to enhance the performance and efficiency of web browsing. 
+Two significant versions are HTTP/1.1 and HTTP/2. 
+In this blog post, we will explore the differences between HTTP/1.1 and HTTP/2.
+
+HTTP/1.1:
+HTTP/1.1 was released in 1999.
+It functions on a request-response model, where a client sends a request to a server, and the server responds with the requested resource. 
+HTTP/1.1 has some limitations that hindered its performance,such as
+1.It relies on single connnection per request. hence if a resource is requested but delayed due to, a large image or slow server response, 
+subsequent requests must wait, slowing down the overall page load time.
+2. It does not natively support compression of headers, which can result in increased bandwidth usage.
+3. Since it works on a request-response model,the server cannot proactively send additional resources to the client before they are requested.
+
+HTTP/2 :
+1.HTTP/2 was introduced in 2015 as an improved version of HTTP,
+designed to address the limitations of HTTP/1.1 and enhance web performance.
+2.Most significant improvements in HTTP/2 is the introduction of multiplexing.
+It allows multiple requests and responses to be sent concurrently over a single TCP connection,
+eliminating head-of-line blocking and reducing latency. This results in faster and more efficient page loading.
+3.It uses a binary format instead of plain text, which reduces overhead and makes parsing more efficient.
+4. HTTP/2 introduces server push, allowing the server to proactively send additional resources to the client before they are requested.
